@@ -1,0 +1,12 @@
+<div class="panel">
+    <form action="/solve" method="get">
+        <label for="q">Enter Infix Expression:</label>
+        <input id="q" name="q"><br/>
+        <input class="btn" type="submit" value="Evaluate">
+        <span class="spinner">{{> spinner}}</span>
+    </form>
+</div>
+<div class="result">
+    <h2>Result:</h2>
+    <span class="result__value"></span>
+</div>
