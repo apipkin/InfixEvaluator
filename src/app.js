@@ -10,7 +10,7 @@ const server = new Hapi.Server();
 
 server.connection({ 
   host: 'localhost', 
-  port: 3501,
+  port: process.env.PORT || 3501,
   routes: {
     files: {
         relativeTo: __dirname

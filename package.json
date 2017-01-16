@@ -4,9 +4,10 @@
   "description": "Parse and evaluate an infix expression returning the result.",
   "main": "./src/app.js",
   "scripts": {
+    "start": "node .",
     "test": "tap ./test/*/*.js",
     "test:cover": "tap --cov --coverage-report=text ./test/*/*.js",
-    "test:cover:browser": "tap --cov --coverage-report=lcov ./test/*/*.js",
+    "test:cover:browser": "tap --cov --coverage-report=lcov ./test/*/*.js"
   },
   "keywords": [],
   "author": {
