@@ -22,21 +22,21 @@ The infix evaluator will tokenize the expression string, pass it to the evaluato
  - The use of `ALERT` will refer to alerting the user
 
 | Method Sequence | Expected Output | Actual Output
-| ---             | ---             | ---
+| --- | --- | --- |
 | EVALUATE        | ALERT "Please enter an expression" | ALERT "Please enter an expression"
-| ---             | ---             | ---
+| --- | --- | --- |
 | ENTER "2 + 3"   | DISPLAY "5"     | DISPLAY "5"
 | EVALUATE        |                 |
-| ---             | ---             | ---
+| --- | --- | --- |
 | ENTER "2+3 * 5" | DISPLAY "17"    | DISPLAY "17"
 | EVALUATE        |                 |
-| ---             | ---             | ---
+| --- | --- | --- |
 | ENTER "(32 - 5) * 6 + 3 / 2" | DISPLAY "163" | DISPLAY "163"
 | EVALUATE        |                 |
-| ---             | ---             | ---
+| --- | --- | --- |
 | ENTER "3 / (6 - 2 * 3)" | ALERT "Cannot divide by zero." | ALERT "Cannot divide by zero." 
 | EVALUATE        |                 |
-| ---             | ---             | ---
+| --- | --- | --- |
 | ENTER "3 * 3 / 3 + 3 - 3" | DISPLAY "3" | DISPLAY "3"
 | EVALUATE
 
