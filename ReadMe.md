@@ -25,8 +25,7 @@ The infix evaluator will tokenize the expression string, pass it to the evaluato
 | --- | --- | --- |
 | EVALUATE        | ALERT "Please enter an expression" | ALERT "Please enter an expression"
 | --- | --- | --- |
-| ENTER "2 + 3"   | DISPLAY "5"     | DISPLAY "5"
-| EVALUATE        |                 |
+| ENTER "2 + 3"<br>EVALUATE    | DISPLAY "5"     | DISPLAY "5"
 | --- | --- | --- |
 | ENTER "2+3 * 5" | DISPLAY "17"    | DISPLAY "17"
 | EVALUATE        |                 |
