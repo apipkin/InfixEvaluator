@@ -47,7 +47,21 @@ The infix evaluator will tokenize the expression string, pass it to the evaluato
 
 
 ## Lessons learned
-_{working}_
+In researching infix expressions, without reading the pseudo code provided, I 
+was under the impression the ideal implementation would have been to use 
+something called a 'read tree'. I thought through the process of making a tree, 
+then went through the pseudo code for the infix evaluator. After the exercise,
+the process of using stacks feels less complicated for the expression 
+evaluation.
 
+Creating performant JavaScript using Arrays and Stacks has a few limitations. I 
+almost created a class as an implementation over an Array to address the 
+concerns I found. Instead, I used a few functions in a utility module.
 
+## Possible Improvements
+I would like to add exponents and automated multiplication when a number is next 
+to a group operator. Adding in factorial evaluation would also be an 
+improvement. As far as the interface is concerned, adding a list of the past 
+five or so expressions with their values would be great for recall and 
+expression editing or mixing.
 
