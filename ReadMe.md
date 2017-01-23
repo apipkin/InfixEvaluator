@@ -24,15 +24,10 @@ The infix evaluator will tokenize the expression string, pass it to the evaluato
 | Method Sequence | Expected Output | Actual Output
 | --- | --- | --- |
 | EVALUATE        | ALERT "Please enter an expression" | ALERT "Please enter an expression"
-| --- | --- | --- |
 | ENTER "2 + 3"<br>EVALUATE    | DISPLAY "5"     | DISPLAY "5"
-| --- | --- | --- |
 | ENTER "2+3 * 5"<br>EVALUATE | DISPLAY "17"    | DISPLAY "17"
-| --- | --- | --- |
 | ENTER "(32 - 5) * 6 + 3 / 2"<br>EVALUATE | DISPLAY "163" | DISPLAY "163"
-| --- | --- | --- |
 | ENTER "3 / (6 - 2 * 3)"<br>EVALUATE | ALERT "Cannot divide by zero." | ALERT "Cannot divide by zero." 
-| --- | --- | --- |
 | ENTER "3 * 3 / 3 + 3 - 3"<br>EVALUATE | DISPLAY "3" | DISPLAY "3"
 
 
