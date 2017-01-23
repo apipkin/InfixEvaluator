@@ -5,7 +5,7 @@ The infix evaluator will tokenize the expression string, pass it to the evaluato
 
 ## To Start the Server
 
-`node .`
+`npm start`
 
 
 ## Testing
@@ -14,9 +14,11 @@ The infix evaluator will tokenize the expression string, pass it to the evaluato
  - *test coverage* `npm run test:cover`
  - *test coverage in browser* `test:cover:browser`
 
+### Test Plan
 
 ## UML Diagram
-_{working}_
+![UML Diagram](https://image.ibb.co/fvcr1F/Main.png)
+
 
 ## Lessons learned
 _{working}_
