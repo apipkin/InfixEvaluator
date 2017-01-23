@@ -5,13 +5,17 @@ The infix evaluator will tokenize the expression string, pass it to the evaluato
 
 ## Getting Started
 
-**Clone the repository**: `git clone git@github.com:apipkin/InfixEvaluator.git`
+**Clone the repository**
+`git clone git@github.com:apipkin/InfixEvaluator.git`
 
-**Change into the directory**: `cd InfixEvaluator`
+**Change into the directory**
+`cd InfixEvaluator`
 
-**Install important packages**: `npm install`
+**Install important packages**
+`npm install`
 
-**Start the server**: `npm start`
+**Start the server**
+`npm start`
 
 
 
