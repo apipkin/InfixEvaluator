@@ -3,9 +3,16 @@
 This infix evaluator will correctly solve any expression given only numbers, operators (`+`, `-`, `*`, `/`), and groups (`()`, `{}`, `[]`).
 The infix evaluator will tokenize the expression string, pass it to the evaluator and return the results.
 
-## To Start the Server
+## Getting Started
 
-`npm start`
+**Clone the repository**: `git clone git@github.com:apipkin/InfixEvaluator.git`
+
+**Change into the directory**: `cd InfixEvaluator`
+
+**Install important packages**: `npm install`
+
+**Start the server**: `npm start`
+
 
 
 ## Testing
