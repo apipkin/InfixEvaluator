@@ -1,4 +1,4 @@
-const tokenize = require('./tokenize');
+const tokenize = require('./Tokenize');
 
 const utils = require('../utils');
 const isGroupStart = utils.isGroupStart;
@@ -14,14 +14,13 @@ const getHighestPrecedence = utils.getHighestPrecedence;
  * @param {string} Expresion to be evaluated
  * @return {number}
  */
-function infixEvaluator (exp) {
+function Evaluator (exp) {
   var tokens = tokenize(exp);
 
   var operators = [];
   var operands = [];
   
   var token, left, right, result;
-  debugger;
 
   while (tokens.length) {
     token = tokens.shift();
@@ -63,7 +62,7 @@ function infixEvaluator (exp) {
     operands.push(result);
   }
 
-  return operands.pop();
+  return operands.pop().toString();
 }
 
-module.exports = infixEvaluator;
+module.exports = Evaluator;

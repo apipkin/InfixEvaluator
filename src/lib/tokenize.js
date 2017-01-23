@@ -12,7 +12,7 @@ const appendLast   = utils.appendLast;
  * @param {string} Expresion to be tokenized
  * @return {array} List of tokenized values
  */
-function tokenize (str) {
+function Tokenize (str) {
   var pointer = 0;
   var tokens = [];
   var chr = '';
@@ -37,4 +37,4 @@ function tokenize (str) {
   return tokens; 
 }
 
-module.exports = tokenize;
+module.exports = Tokenize;

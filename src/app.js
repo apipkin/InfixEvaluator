@@ -3,7 +3,7 @@
 const Hapi = require('hapi');
 const Hoek = require('hoek');
 
-const infixEval = require('./lib/infixEvaluator');
+const infixEval = require('./lib/Evaluator');
 
 // Create a server with a host and port
 const server = new Hapi.Server();

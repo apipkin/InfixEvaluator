@@ -1,5 +1,5 @@
 const test = require('tap').test;
-const infixEval = require('../../src/lib/infixEvaluator');
+const infixEval = require('../../src/lib/Evaluator');
 const DivideByZero = require('../../src/lib/DivideByZero');
 
 test('Evaluator will return the value for the expression', (t) => {

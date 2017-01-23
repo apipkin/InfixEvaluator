@@ -1,5 +1,5 @@
 const test = require('tap').test;
-const tokenize = require('../../src/lib/tokenize');
+const tokenize = require('../../src/lib/Tokenize');
 
 test('tokenize will parse and return tokens given an expression', (t) => {
     const expression = '1+2';
